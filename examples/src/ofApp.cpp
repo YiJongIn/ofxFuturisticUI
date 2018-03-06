@@ -1,5 +1,6 @@
 #include "ofApp.h"
 
+
 //--------------------------------------------------------------
 void ofApp::setup(){
 	//we run at 60 fps!
@@ -95,7 +96,7 @@ void ofApp::keyReleased(int key){
 
 //--------------------------------------------------------------
 void ofApp::mouseMoved(int x, int y){
-	 //g1.setValue(ofMap(x,0,ofGetWidth(),0,g1.maxVal));
+	
 }
 
 //--------------------------------------------------------------
