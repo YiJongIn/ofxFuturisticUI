@@ -3,24 +3,24 @@
 
 futureGauge::futureGauge(void)
 {
-	    x=0;
+	x=0;
         y=0;
         s=200;
         str="futureGauge";
-		gaugeSize = s*0.42;
+	gaugeSize = s*0.42;
         gauge = 0.7;
         gaugeAngle = 180-middleAngle/2;
         middleAngle = 90;
         minVal = 0.0; maxVal = 100;
 
-		arcPath.arc(0,0,s*0.5,s*0.5,180-middleAngle/2,360+middleAngle/2);
+	arcPath.arc(0,0,s*0.5,s*0.5,180-middleAngle/2,360+middleAngle/2);
         arcPath.setCircleResolution(200);
         arcPath.setFillColor(ofColor(100,255,205));
         
         gaugePath.arc(0,0,gaugeSize,gaugeSize,180-middleAngle/2,180-middleAngle/2+1);
         gaugePath.setCircleResolution(200);
         gaugePath.setFillColor(ofColor(100,255,205,150));
-        font.loadFont("Autobus-Bold.ttf", s*0.15);
+        font.loadFont("Autobus-Bold.ttf", s*0.12);
         valuefont.loadFont("Autobus-Bold.ttf", s*0.1);
 }
 
@@ -42,13 +42,11 @@ futureGauge::futureGauge(float _x, float _y, float _s, string _str) {
         gaugePath.arc(0,0,gaugeSize,gaugeSize,180-middleAngle/2,180-middleAngle/2+1);
         gaugePath.setCircleResolution(200);
         gaugePath.setFillColor(ofColor(100,255,205,150));
-        font.loadFont("Autobus-Bold.ttf", s*0.15);
+        font.loadFont("Autobus-Bold.ttf", s*0.12);
         valuefont.loadFont("Autobus-Bold.ttf", s*0.1);
 }
 
 void futureGauge::draw() {
-//        ofSetLineWidth(s*0.008);
-        //    ofNoFill();
         ofSetColor(100, 255, 205);
         
         ofFill();
@@ -107,5 +105,7 @@ void futureGauge::setValue(float _value) {
     gaugePath.arc(0,0,gaugeSize,gaugeSize,180-middleAngle/2, gaugeAngle);
         
 }
+
+
 
 
