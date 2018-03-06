@@ -1,12 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxNetwork.h"
-#include "ofxTrueTypeFontUC.h"
 #include "ofxFuturisticUI.h"
-//#include "futureGauge.h"
-//#include "futureGrid.h"
-//#include "groupFrame.h"
 
 class ofApp : public ofBaseApp{
 public:
@@ -23,13 +18,6 @@ public:
 	void windowResized(int w, int h);
 	void dragEvent(ofDragInfo dragInfo);
 	void gotMessage(ofMessage msg);
-	void drawSamplePlot1(float _x, float _y);
-	void drawSamplePlot2(float _x, float _y) ;
-	ofxUDPManager udpConnection;
-
-	//ofTrueTypeFont font;
-	ofxTrueTypeFontUC font;
-    ofPath arcPath, gaugePath;
 
     float gap;
     futureGauge g1;
