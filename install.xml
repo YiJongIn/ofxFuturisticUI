@@ -1,0 +1,31 @@
+<install>
+    <name>ofxFuturisticUI</name>
+	<version>0.01</version>
+	<author>Yi Jong In</author>
+	<url>https://github.com/YiJongIn/ofxFuturisticUI/</url>
+	
+    <add>	
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+	
+	    <src>
+		
+		    <folder name="addons/ofxFuturisticUI/src">	
+			    <file>../../../addons/ofxFuturisticUI/src/ofxFuturisticUI.h</file>
+			    <file>../../../addons/ofxFuturisticUI/src/futureGauge.cpp</file>
+          <file>../../../addons/ofxFuturisticUI/src/futureGauge.h</file>
+          <file>../../../addons/ofxFuturisticUI/src/futureGrid.cpp</file>
+          <file>../../../addons/ofxFuturisticUI/src/futureGrid.h</file>
+          <file>../../../addons/ofxFuturisticUI/src/groupFrame.cpp</file>
+          <file>../../../addons/ofxFuturisticUI/src/groupFrame.h</file>
+		    </folder>
+
+	    </src>
+	
+	    <include>
+		    <path>../../../addons/ofxFuturisticUI/src</path>
+	    </include>
+    </add>
+    
+</install>
