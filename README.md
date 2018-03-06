@@ -1,5 +1,5 @@
 # ofxFuturisticUI
-openFrameworks GUI addon for Futuristic data visualization
+openFrameworks GUI addon for futuristic data visualization
 
 ![ofxFuturisticUI screenShot](https://github.com/YiJongIn/ofxFuturisticUI/blob/master/screenShot.JPG)
 
